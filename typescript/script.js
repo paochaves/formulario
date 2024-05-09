@@ -11,13 +11,11 @@ miBoolean = false;
 console.log(miString);
 console.log(miNumber);
 console.log(miBoolean);*/
-
 // UNION DE TIPOS
 /*let miId: string | number;
 miId = "abc";
 miId = 101;
 console.log(miId);*/
-
 //ESPECIALES
 /*let miNull = null;
 miNull = null;
@@ -34,7 +32,6 @@ miAny = "abc";
 miAny = 1;
 miAny = false;
 console.log(miAny);*/
-
 //ARREGLOS
 /*let arrNumber1 = [0, 1, 2];
 let arrNumber2: Array<number>;
@@ -45,17 +42,14 @@ let arrString2: string[] = ["x", "y", "z"];
 let arrAny: any[];
 arrAny = ["abc", 123, true];
 console.log(arrAny);*/
-
 //INFERENCIA DE TIPO
 /*let arr = ["abc", 123, true, [], {}, function name() {}];
 arr = ['abc'];
 arr = [1, 2, 5];*/
-
 //TUPLAS
 /*let miTupla: [string, number, boolean];
 miTupla = ["pepita", 555, true];
 console.log(miTupla);*/
-
 //OBJETOS
 /*let miObjeto: Object;
 miObjeto = {};
@@ -80,7 +74,6 @@ objPersona2 = {
   activo: true,
 };
 console.log(objPersona2);*/
-
 // ENUMS es un gruipo de constantes
 /*enum CodigosPermisos {
   Administrador,
@@ -90,7 +83,6 @@ console.log(objPersona2);*/
 }
 console.log(CodigosPermisos);
 console.log(CodigosPermisos.Administrador);*/
-
 //ALIAS se usa para identificar un tipo de dato
 /*type NombreEstudiante = string;
 type HijosEstudiante = number;
@@ -108,7 +100,6 @@ miEstudiante = {
   hijos: 0,
   activo: true,
 };*/
-
 //INTERFACES solamente se aplican a objetos
 /*interface Profesor {
   id: number;
@@ -123,7 +114,6 @@ miProfesor = {
   curso: "basico1",
   activo: true,
 };*/
-
 //FUNCIONES
 /*function miFuncion1() {
     console.log("soy una funcion 1");
@@ -135,7 +125,6 @@ const miFuncion2 = () => {
 }
 retornado = miFuncion2();
 console.log(retornado); */
-
 /*function miFuncion(nombre: string = "desconocido"): string {
   return "hola, $(nombre)";
 }
